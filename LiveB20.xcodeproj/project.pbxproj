@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3535E4572C22A55C00317A0F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3535E4562C22A55C00317A0F /* main.swift */; };
+		3535E4772C2411DC00317A0F /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3535E4762C2411DC00317A0F /* Human.swift */; };
+		3535E4792C24126300317A0F /* Rechteck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3535E4782C24126300317A0F /* Rechteck.swift */; };
+		3535E47B2C2412EE00317A0F /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3535E47A2C2412EE00317A0F /* Dog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		3535E4532C22A55C00317A0F /* LiveB20 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LiveB20; sourceTree = BUILT_PRODUCTS_DIR; };
 		3535E4562C22A55C00317A0F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3535E4762C2411DC00317A0F /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		3535E4782C24126300317A0F /* Rechteck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rechteck.swift; sourceTree = "<group>"; };
+		3535E47A2C2412EE00317A0F /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				3535E4562C22A55C00317A0F /* main.swift */,
+				3535E4762C2411DC00317A0F /* Human.swift */,
+				3535E4782C24126300317A0F /* Rechteck.swift */,
+				3535E47A2C2412EE00317A0F /* Dog.swift */,
 			);
 			path = LiveB20;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3535E4792C24126300317A0F /* Rechteck.swift in Sources */,
 				3535E4572C22A55C00317A0F /* main.swift in Sources */,
+				3535E47B2C2412EE00317A0F /* Dog.swift in Sources */,
+				3535E4772C2411DC00317A0F /* Human.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
